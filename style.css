@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: yellow;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: red;
+}
+form {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+form > #input-search {
+  width: 60%;
+  max-width: 400px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  border: 2px solid blue;
+  color: blue;
+}
+form > #select {
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  border: 2px solid blue;
+  color: blue;
+}
+.pok-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 100px;
+  gap: 20px;
+}
+.pok-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: aqua;
+  padding: 20px 10px;
+}
+.pok-cards > div {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: antiquewhite;
+  padding: 10px;
+}
+.pok-cards > div > img {
+  width: 100%;
+  height: 100%;
+}
